@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joaquim David | Contatos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #1e1e2f;
+            color: #eee;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        h1 {
+            margin-bottom: 30px;
+            color: #a67cff;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        a.button-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+            background-color: #a67cff;
+            color: #1e1e2f;
+            text-align: center;
+            padding: 15px 20px;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        
+        a.button-link:hover {
+            background-color: #8a5de8;
+        }
+        
+        a.button-link .emoji {
+            font-size: 1.4rem;
+            line-height: 1;
+        }
+        
+        footer {
+            margin-top: 40px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Joaquim David</h1>
+    <div class="container">
+        <a href="mailto:joaquim.davidgrafica@gmail.com" class="button-link">
+            <span class="emoji">📧</span> E-mail
+        </a>
+        <a href="https://www.instagram.com/studiograficojd?igsh=NjhwdWNtcXg3bWRu" target="_blank" rel="noopener noreferrer" class="button-link">
+            <span class="emoji">📸</span> Instagram
+        </a>
+        <a href="https://api.whatsapp.com/qr/6UV4W473LLTCO1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" class="button-link">
+            <span class="emoji">💬</span> WhatsApp
+        </a>
+        <a href="portfolio.html" target="_blank" rel="noopener noreferrer" class="button-link">
+            <span class="emoji">🖼️</span> Portfólio
+        </a>
+    </div>
+    <footer>&copy; 2025 Joaquim David</footer>
+</body>
+
+</html>
